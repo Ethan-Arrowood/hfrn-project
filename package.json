@@ -1,0 +1,23 @@
+{
+  "name": "hfrn-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\" \"npm run db\"",
+    "server": "nodemon server.js",
+    "client": "cd client && yarn start",
+    "db": "cd HarperDB/bin && ./harperdb run",
+    "stopDB": "cd HarperDB/bin && ./harperdb stop"
+  },
+  "author": "Ethan Arrowood",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^0.30.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.12.1"
+  }
+}
