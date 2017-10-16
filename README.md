@@ -6,4 +6,6 @@ The HarperDB instance included with this project is for Mac users. If you are on
 
 If you notice anything wrong please open an issue or a pull-request! 
 
+You can reach out to me on [Twitter](https://twitter.com/ArrowoodTech) as well.
+
 ~Ethan
